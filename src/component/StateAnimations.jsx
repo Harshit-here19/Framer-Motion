@@ -31,7 +31,7 @@ export default function StateAnimations() {
                     initial={{ filter: "blur(10px)" }}
                     animate={{ filter: "blur(0px)" }}
                     transition={{ type: 'spring',duration: 1 }}
-                    className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium rounded-lg hover:from-purple-700 hover:to-blue-600 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 active:scale-95 transition-all duration-300"
+                    className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-500 text-white font-medium rounded-lg hover:from-purple-700 hover:to-blue-600 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 active:scale-95 transition-all duration-300 cursor-none"
                     onClick={() => {
                         setX(0)
                         setY(0)

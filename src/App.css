@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 
+*{
+  cursor: none;
+}
+
 body {
   margin: 0;
   font-family: 'Bitcount Prop Single',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

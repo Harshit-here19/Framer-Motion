@@ -18,7 +18,7 @@ export default function SharedLayoutAnimation() {
               animate={{
                 backgroundColor: item === selectedTab ? "#eee" : "transparent",
               }}
-              className="relative flex-1 min-w-0 flex justify-between items-center py-2.5 px-4 cursor-pointer select-none text-gray-900 rounded-t-md"
+              className="relative flex-1 min-w-0 flex justify-between items-center py-2.5 px-4   select-none text-gray-900 rounded-t-md"
               onClick={() => setSelectedTab(item)}
             >
               <span>{`${item.icon} ${item.label}`}</span>
