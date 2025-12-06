@@ -1,0 +1,75 @@
+/* StateAnimations.module.css */
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 5px dotted #ff0088;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.code {
+  width: 100px;
+  font-family: "Azeret Mono", monospace;
+}
+
+.rangeInput,
+.numberInput {
+  font-family: "Azeret Mono", monospace;
+  accent-color: #ff0088;
+}
+
+.numberInput {
+  border: 0;
+  border-bottom: 1px dotted #ff0088;
+  color: #ff0088;
+  margin-left: 10px;
+}
+
+.numberInput:focus {
+  outline: none;
+  border-bottom: 2px solid #ff0088;
+}
+
+/* Hide number input spinners */
+.numberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Style range slider track */
+.rangeInput::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  background: #0b1011;
+  border: 1px solid #1d2628;
+  border-radius: 10px;
+  margin-top: -1px;
+}
+
+/* Style range slider thumb */
+.rangeInput::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #ff0088;
+  top: -4px;
+  position: relative;
+}
